@@ -1,0 +1,91 @@
+<html>
+  <head>
+      <style> 
+        
+    h1{color:darkturquoise; }
+  h2{color:green; }
+  
+    </style>
+      
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        
+    
+        
+        google.load('visualization', '1', { 'packages': ['map'] });
+    google.setOnLoadCallback(drawMap);
+
+    function drawMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['Country', 'Capitals'],
+        ['China', 'Beijing'],
+        ['India', 'Delhi'],
+        ['US', 'Washington D.C'],
+        ['Indonesia', 'Jakarta'],
+        ['Brazil', 'Brasilia'],
+        ['Pakistan', 'Pakistan'],
+        ['Nigeria', 'Nigeria'],
+        ['Bangladesh', 'Bangladesh'],
+        ['Russia', 'Russia'],
+        ['Japan', 'Japan']
+       
+      ]);
+
+    var options = { showTip: true };
+
+    var map = new google.visualization.Map(document.getElementById('chart_div'));
+
+    map.draw(data, options);
+  };
+    
+        
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Usage', 'No. of users'],
+          ['market value2015',  56],
+          ['market value 2014',      55],
+          ['market value 2013',  30],
+          ['market value 2102', 25],
+          ['market value',   10 ]
+        ]);
+
+        var options = {
+          title: 'Marketvalues of google'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+          
+        var chart=new google.visualization.BarChart(document.getElementById('barchart'));
+          chart.draw(data,options);
+          
+      }
+        
+        
+       </script>
+     
+  </head>
+  <body onload="testmash()">
+    
+      <h1>Welcome</h1>
+    <h2><div id="Username"></div></h2>
+      <div id="chart_div"></div>
+    <div id="piechart" style="width: 900px; height: 500px;"></div>
+      <div id="barchart" style="width:900px;height:500px;"></div>
+      <img src="http://chart.finance.yahoo.com/z?s=GOOG&t=3m&q=l&z=l&p=m50,m200" width=900 height=500></img>
+      
+  </body>
+</html>
+
+
+  <script type="text/javascript">
+    document.getElementById('user name').innerHTML = localStorage.getItem('user name');
+    </script>
+<script>
+function testmash(){
+            alert("welcome"+localstorage.getItem("username"));
+        };</script>
