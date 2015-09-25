@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>API Calls</title>
+		<style>
+			label {
+			width: 350px;
+			display: inline-block;
+			}
+			div{
+			margin: auto;
+			width: 1000px;
+			padding: 10px;
+			}
+		</style>
+	</head>
+	<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<body onload="document.getElementById('userName').innerHTML =localStorage.getItem
+		('userName');">
+		<div ng-app="apiApp" ng-controller="apiController">
+			<h2 align="center">Welcome <span id="userName"></span></h2>
+			<h4>Chart API</h4>
+			<label>Company : </label><input type="text" ng-model="chartHeight" 
+				id="chartHeight"/><br/><br /> 
+			<input type="button" value="Get Image" ng-click="RenderChart()"/> <br/><br /> 
+			<span ng-show="showCharts"><img src="{{ imageURL }}" alt="Give inputs to display 
+				image"></span>
+			
+		</div>
+		<script>
+			var angularApp = angular.module('apiApp', []);
+			angularApp.controller('apiController', function($scope, $http) {
+				$scope.imageURL = "";
+				$scope.showCharts=false;
+				$scope.showSpeakingMessage=false;
+				$scope.RenderChart=function(){
+					$scope.showCharts=true;
+					$scope.showSpeakingMessage=false;
+					$scope.imageURL="http://chart.finance.yahoo.com/z?s="+$scope.chartHeight+"&t=3m&q=l&z=l&p=m50,m200";	
+				};
+				}
+			);
+		</script>
+	</body>
+</html>
