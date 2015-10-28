@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<archive id="defaultServer0">
+  <dir sourceOnDisk="C:\Users\sravanthi-pc\workspace\MongoRestApi\WebContent" targetInArchive="/"/>
+  <dir sourceOnDisk="C:\Users\sravanthi-pc\workspace\MongoRestApi\WebContent\WEB-INF\classes" targetInArchive="/WEB-INF/classes"/>
+  <dir sourceOnDisk="C:\Users\sravanthi-pc\workspace\MongoRestApi\WebContent\WEB-INF\classes" targetInArchive="/WEB-INF/classes"/>
+</archive>

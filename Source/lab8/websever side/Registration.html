@@ -1,0 +1,35 @@
+<script id="templates/Registration.html" type="text/ng-template">
+     <ion-view view-title="Registration">
+        <ion-content padding="true">
+          <div class="list">
+            <label class="item item-input">
+              <span class="input-label">Enter name </span>
+              <input type="text" ng-model="name">
+             
+            </label>
+	  </div>
+    <div class="list">
+            <label class="item item-input">
+              <span class="input-label">password </span>
+              <input type="password" ng-model="password">
+             
+            </label>
+	  </div>
+    <div class="list">
+            <label class="item item-input">
+              <span class="input-label">enter mail id  </span>
+              <input type="text" ng-model="email">
+             
+            </label>
+	  </div>
+          <div class="padding">
+            <button class="button button-block button-positive" ng-click="register(name,password,email)">
+              Submit1
+            </button>
+            <p> {{msg}} </p>
+          <p>
+            Return to <a href="#/sign-in">Sign-In</a>.
+          </p>
+        </ion-content>
+      </ion-view>
+    </script>

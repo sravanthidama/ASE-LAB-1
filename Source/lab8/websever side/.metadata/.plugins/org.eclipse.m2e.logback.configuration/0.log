@@ -1,0 +1,16 @@
+2015-10-17 22:21:11,318 [Worker-22] INFO  org.eclipse.jetty.util.log - Logging initialized @887503ms
+2015-10-17 22:21:11,916 [Worker-22] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2015-10-17 22:21:12,379 [Worker-22] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@512488c5{HTTP/1.1}{0.0.0.0:55565}
+2015-10-17 22:21:12,381 [Worker-22] INFO  org.eclipse.jetty.server.Server - Started @888713ms
+2015-10-27 11:53:25,183 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @77488ms
+2015-10-27 11:53:25,558 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2015-10-27 11:53:26,714 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@3ecaf9f5{HTTP/1.1}{0.0.0.0:59390}
+2015-10-27 11:53:26,714 [main] INFO  org.eclipse.jetty.server.Server - Started @79056ms
+2015-10-27 20:05:17,088 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @87538ms
+2015-10-27 20:05:17,666 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2015-10-27 20:05:18,775 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@69ab1abc{HTTP/1.1}{0.0.0.0:61474}
+2015-10-27 20:05:18,775 [main] INFO  org.eclipse.jetty.server.Server - Started @89274ms
+2015-10-27 20:25:36,529 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @58326ms
+2015-10-27 20:25:36,873 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2015-10-27 20:25:37,857 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4bb8c6a0{HTTP/1.1}{0.0.0.0:61718}
+2015-10-27 20:25:37,857 [main] INFO  org.eclipse.jetty.server.Server - Started @59684ms
