@@ -1,0 +1,28 @@
+ <script id="templates/deleterecord.html" type="text/ng-template">
+     <ion-view view-title="deleterecord">
+        <ion-content padding="true">
+          <div class="list">
+            <label class="item item-input">
+              <span class="input-label">username </span>
+              <input type="text" ng-model="username">
+             
+            </label>
+	  </div>
+    <div class="list">
+            <label class="item item-input">
+              <span class="input-label">password </span>
+              <input type="password" ng-model="pwd">
+             
+            </label>
+	  </div>
+          <div class="padding">
+            <button class="button button-block button-positive" ng-click="remove(username,pwd)">
+              Remove
+            </button>
+            <p> {{msg}} </p>
+          <p>
+            Return to <a href="#/sign-in">Sign-In</a>.
+          </p>
+        </ion-content>
+      </ion-view>
+    </script>

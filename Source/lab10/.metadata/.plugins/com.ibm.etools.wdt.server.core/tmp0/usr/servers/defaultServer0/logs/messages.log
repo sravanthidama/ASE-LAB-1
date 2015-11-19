@@ -1,0 +1,13 @@
+********************************************************************************
+product = WebSphere Application Server 8.5.5.4 (wlp-1.0.7.cl50420141211-1039)
+wlp.install.dir = C:/Users/sravanthi-pc/Downloads/eclipse-jee-mars-1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/997/0/.cp/resources/server_runtime/
+server.config.dir = C:/Users/sravanthi-pc/workspace/.metadata/.plugins/com.ibm.etools.wdt.server.core/tmp0/usr/servers/defaultServer0/
+java.home = C:\Program Files\Java\jre1.8.0_60
+java.version = 1.8.0_60
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_60-b27)
+os = Windows 8.1 (6.3; amd64) (en_US)
+process = 12364@sravanthi
+********************************************************************************
+[10/27/15 11:58:25:778 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer0 has been launched.
+[10/27/15 11:58:41:153 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 19.929 seconds
+[10/27/15 11:58:41:736 CDT] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
